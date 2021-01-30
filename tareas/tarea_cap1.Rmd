@@ -1,0 +1,27 @@
+
+# Tarea - Capítulo 1 - Cómputo Probabilístico
+
+**1. Escribe el modelo conjugado Poisson-Gamma. Determina los valores posteriores de los parámetros. Escribe los valores de media y varianza. Identifica las funciones estándar que utilizarías para calcular los parámetros (posterior) dada una muestra.**
+
+```{r}
+
+```
+
+
+
+
+**Considera una variable aleatoria uniforme v ≥ U[a,b]. Calcula la media y varianza de dicha variable aleatoria. Identifica la función de densidad p(v), y las funciones resumen f para cada caso. ¿Puedes identificar la constante de normalización?**
+
+```{r}
+
+```
+
+
+
+
+**Contesta las siguientes preguntas:**
+**- ¿Cuáles son las probabilidades a priori de que cada sabor sea el preferido por la población?**
+**- ¿Cuál es la integral correspondiente a las probabilidades que acabamos de calcular? **
+**- ¿Qué tan fácil es hacer esta integral de manera analítica?**
+**- Calcula la probabilidad de que mango sea preferido a limón?**
+**- ¿Qué conclusión práctica sacas de estos resultados?**
