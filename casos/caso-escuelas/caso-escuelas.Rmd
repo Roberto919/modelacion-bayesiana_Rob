@@ -95,8 +95,8 @@ Una vez escrito nuestro modelo, lo podemos compilar utilizando la librería de
 ```{r, message = TRUE}
 # dir1 -> /Users/rp_mbp/.cmdstanr/cmdstan-2.26.1
 # dir2 -> /private/var/folders/0q/3y5dk4390kqc86qh28v817lw0000gn/T/RtmpqUBteJ/downloaded_packages
-set_cmdstan_path(path="/Users/rp_mbp/.cmdstanr/cmdstan-2.26.1")
-cmdstan_path()
+# set_cmdstan_path(path="/Users/rp_mbp/.cmdstanr/cmdstan-2.26.1")
+# cmdstan_path()
 
 modelos_files <- "modelos/"
 ruta <- file.path("modelos/modelo-escuelas.stan")
