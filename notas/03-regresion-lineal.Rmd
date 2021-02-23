@@ -144,6 +144,12 @@ ggplot(boot_aug, aes(TV, Sales)) +
   geom_point()
 
 ```
+```{markdown}
+## Rob notes
+- Este es el resultado de aplicar bootstrap
+- Con esto podemos evaluar la variabilidad de nuestras estimaciones.
+````
+
 
 ```{r}
 
