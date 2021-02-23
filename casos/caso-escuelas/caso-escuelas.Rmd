@@ -7,8 +7,7 @@ output:
 bibliography: ../../notas/bibs/book.bib
 ---
 
-
-```{r, include=FALSE, message=FALSE}
+```{r, include=FALSE}
 library(cmdstanr)
 library(posterior)
 library(bayesplot)
@@ -16,7 +15,7 @@ library(bayesplot)
 library(tidyverse)
 library(patchwork)
 library(scales)
-knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning=FALSE, 
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning=FALSE,
                       fig.align = 'center', fig.width = 5, fig.height=3, cache = TRUE)
 theme_set(theme_linedraw())
 source("../../funciones-auxiliares/setup-utility.R")
@@ -60,7 +59,11 @@ lo cual representa información poco precisa de estos valores poblacionales.
 ## Primer modelo en `Stan`
 
 La forma en que escribimos el modelo en `Stan` es de manera generativa (_bottom
+<<<<<<< HEAD
 up_): 
+=======
+up_):
+>>>>>>> master
 \begin{align*}
 \mu &\sim \mathsf{N}(0, 5) \,,\\ 
 \tau &\sim \textsf{Half-Cauchy}(0,5) \,,\\
