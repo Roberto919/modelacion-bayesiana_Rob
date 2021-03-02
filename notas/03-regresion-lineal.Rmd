@@ -314,6 +314,10 @@ summary(lm(Balance ~ Student, Credit %>% mutate(Student = fct_relevel(Student, "
 
 ```{r}
 
+Credit %>%
+  group_by(Ethnicity) %>%
+  tally()
+
 summary(lm(Balance ~ Ethnicity, Credit))
 
 ```
