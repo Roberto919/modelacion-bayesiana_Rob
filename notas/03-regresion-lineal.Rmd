@@ -304,6 +304,13 @@ summary(lm(Balance ~ Student, Credit))
 
 ```
 
+```{r}
+
+t.test(Balance ~ Student, data = Credit)
+
+```
+
+
 
 ```{r}
 
