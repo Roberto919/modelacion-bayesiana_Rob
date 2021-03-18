@@ -1,0 +1,29 @@
+# Tarea 1 - Estadística Bayesiana
+
+
+## Ejercicios 11.12
+
+
+### 2) Let Xl, ...,Xn ~ Normal(mu, 1).
+```{r}
+## (a) Simulate a data set (using mu = 5) consisting of n=lQO observations.
+ds <- rnorm(100, mean=5, sd=1)
+
+
+## (b) Take f(mu) = 1 and find the posterior density. Plot the density.
+
+
+## (c) Simulate 1,000 draws from the posterior. Plot a histogram of the simulated values and compare the histogram to the answer in (b).
+
+
+## (d) Let theta = exp(mu). Find the posterior density for theta analytically and by simulation.
+
+
+## (e) Find a 95 percent posterior interval for mu.
+
+
+## (f) Find a 95 percent confidence interval for theta.
+
+
+```
+

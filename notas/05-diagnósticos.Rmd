@@ -80,6 +80,10 @@ g2 <- kidiq %>%
 
 g1 + g2
 ```
+- Aquí vemos que lo mejor es que graficar el residual contra la predicción.
+- El residual contra la observación siempre nos dará cambios con base en el promedio.
+- Lo importante 
+
 
 ```{r}
 
@@ -234,7 +238,9 @@ ppc_stat(y=unemp$y, yrep=y_rep, stat=test, binwidth = 1) + sin_lineas
 
 ## Desviación estándar de los residuales $\sigma$ y varianza explicada $R^2$ {-}
 
-$$ \hat R = 1 - \frac{\hat \sigma2}{\sigma_y^2} \,.$$
+$$ \hat R^2 = 1 - \frac{\hat \sigma2}{\sigma_y^2} \,.$$
+- La sigma del denominador representa la desviación estándar de los residuales.
+
 ```{r}
 
 data <- tibble(x = 1:5 - 3, 
@@ -258,6 +264,9 @@ c(OLS   = var(predict(ols))/var(data$y),
   Bayes = var(predict(fit_bayes))/var(data$y))
 
 ```
+
+- Aquí vemos que el modelo Bayesiano tiene una R^2 mayor a 1.
+
 
 ```{r}
 
